@@ -1,5 +1,5 @@
 bot:
-    token: '6544074231:AAF4dF-A0hfaKUx443iws5_txTCdKBKcLZ8'
+    token: ''
     admin_id: 00000000
 db:
     database: 'postgres'
