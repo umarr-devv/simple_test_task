@@ -9,6 +9,7 @@ class Username(StatesGroup):
 
 
 @router.message(CommandStart())
-async def on_start(message: types.Message, command: CommandObject):
-    text = f'Добро пожаловать, {message.from_user.full_name}'
+async def on_start(message: types.Message, command: CommandObject, state: FSMContext):
+    text = f'Добрый день. Как вас зовут?'
+    await state.set_state(Username.get_username)
     await message.answer(text=text)
