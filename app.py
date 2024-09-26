@@ -12,7 +12,7 @@ from src.utils.commands import set_commands
 from src.utils.logs import set_logging
 from src.models import Base
 
-CONFIG_FILE = 'local-config.yml'
+CONFIG_FILE = 'config.yml'
 
 config = Config.create(config_file=CONFIG_FILE)
 dp = Dispatcher(storage=MemoryStorage())

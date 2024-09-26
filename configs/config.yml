@@ -1,0 +1,10 @@
+bot:
+    token: '6544074231:AAF4dF-A0hfaKUx443iws5_txTCdKBKcLZ8'
+    admin_id: 00000000
+db:
+    database: 'postgres'
+    host: 'db'
+    user: 'postgres'
+    password: 't3FVG751#r'
+logging:
+    level: 'DEBUG'
