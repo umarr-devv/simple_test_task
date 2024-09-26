@@ -17,6 +17,18 @@
 Все файлы настроек хранятся по умолчанию в директории __/config__.
 Файл __config-example.yml__ - пример конфигурационного файлы
 
+bot.token - Токен бота, создается с помощью [BotFather](https://t.me/BotFather)
+
+bot.admin_id - telegram_id владельца бота, не обьязателен к заполнению
+
+db.host - хост для postgres, должен совпадать с данными из docker-compose.yml
+
+db.database - БД для postgres, должен совпадать с данными из docker-compose.yml
+
+db.user и db.password - имя пользователя и пароль для postgres, должен совпадать с данными из docker-compose.yml
+
+logging.level - уровень логирования
+
 ***
 
 ### Создание и запус бота через Docker
